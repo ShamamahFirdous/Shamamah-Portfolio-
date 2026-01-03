@@ -20,7 +20,7 @@ const About: React.FC = () => {
               <div className="bg-coffee-50 dark:bg-coffee-800 p-6 rounded-lg border border-coffee-100 dark:border-coffee-700 transition-colors">
                 <h4 className="font-bold text-coffee-900 dark:text-coffee-50 mb-2">Current Focus</h4>
                 <p className="text-coffee-700 dark:text-coffee-300">
-                  Specializing in machine learning, data science, natural language processing, and full-stack development to transform data into actionable insights and scalable applications. Proficient in Python, SQL, and the MERN stack.
+                  Specializing in machine learning, data science, statistical analysis, and full-stack development to transform data into actionable insights and scalable applications. Proficient in Python, R, SQL, and the MERN stack.
                 </p>
               </div>
             </FadeInSection>

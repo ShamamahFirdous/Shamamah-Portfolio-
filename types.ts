@@ -22,7 +22,7 @@ export interface Project {
   title: string;
   description: string;
   tech: string[];
-  category: 'ML/AI' | 'Full Stack' | 'Data Science';
+  category: 'ML/AI' | 'Full Stack' | 'Data Science' | 'Database Engineering';
 }
 
 export interface SkillCategory {

@@ -6,7 +6,7 @@ import LazyImage from './LazyImage';
 import { smoothScrollTo } from '../utils/smoothScroll';
 
 const ROLES = [
-  "Aspiring AI Engineer",
+  "AI Engineer",
   "Data Scientist",
   "Full Stack Developer",
   "Machine Learning Enthusiast"

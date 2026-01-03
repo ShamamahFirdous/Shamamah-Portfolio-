@@ -11,7 +11,7 @@ export const PROFILE = {
   linkedin: "www.linkedin.com/in/shamamah-firdous-867181386",
   github: "github.com/ShamamahFirdous",
   avatar: "public/profile1.jpg",
-  summary: "AI Engineer and Data Scientist passionate about building intelligent systems that solve real-world problems. Currently pursuing my Master's in Information Systems at Northeastern University, with hands-on experience developing NLP classifiers, recommendation engines, and predictive models that deliver measurable impact."
+  summary: "AI Engineer and Data Scientist passionate about building intelligent systems that solve real-world problems. Currently pursuing my Master's in Information Systems at Northeastern University, with hands-on experience developing recommendation engines, predictive models, and production ML pipelines that deliver measurable impact."
 };
 
 export const EXPERIENCE: Experience[] = [
@@ -34,7 +34,9 @@ export const EXPERIENCE: Experience[] = [
       "Developed a Fake News Detection classifier leveraging NLP techniques (NLTK, TF-IDF) and ensemble methods (Random Forest, XGBoost), achieving 15% accuracy improvement over baseline through feature engineering and hyperparameter optimization.",
       "Deployed model to production, handling text preprocessing and classification pipeline end-to-end."
     ]
+
   }
+  
 ];
 
 export const EDUCATION: Education[] = [
@@ -44,8 +46,8 @@ export const EDUCATION: Education[] = [
     institution: "Northeastern University",
     location: "Boston, MA",
     date: "Sep 2024 - Expected May 2026",
-    gpa: "3.4 GPA",
-    coursework: "Data Science with R, Data Management & Database Design, Advanced SQL, Web Design, Advanced Business Process Engineering"
+    gpa: "3.6 GPA",
+    coursework: "Data Science with R, Data Management & Database Design, Advanced SQL, Web Design, Advanced Business Process Engineering, Application Engineering Development"
   },
   {
     id: "2",
@@ -53,7 +55,7 @@ export const EDUCATION: Education[] = [
     institution: "Muffakham Jah College of Engineering and Technology",
     location: "Hyderabad, India",
     date: "Dec 2020 - Jun 2024",
-    gpa: "8.6 CGPA",
+    gpa: "3.5 GPA",
     coursework: "Artificial Intelligence, Data Science, Machine Learning, Deep Learning, Big Data Analytics, Data Visualization, Python, R, SQL"
   }
 ];
@@ -64,7 +66,7 @@ export const PROJECTS: Project[] = [
     title: "Library Management System (LMS)",
     description: "Architected a transactional SQL database system with RBAC security implementing librarian, member, and admin roles. Developed normalized database schema, complex queries with joins and aggregations, and stored procedures to automate inventory tracking, fine calculations, and borrowing workflows while ensuring data consistency.",
     tech: ["SQL", "Database Design", "RBAC", "Stored Procedures"],
-    category: "Data Science"
+    category: "Database Engineering"
   },
   {
     id: "2",
@@ -93,6 +95,13 @@ export const PROJECTS: Project[] = [
     description: "Developed end-to-end ML system for Boston housing rent prediction using CatBoost and ensemble regression models. Built complete pipeline with data preprocessing, feature engineering, and model training. Deployed containerized Flask application with Docker and MLflow for experiment tracking.",
     tech: ["CatBoost", "Flask", "Docker", "MLflow", "Ensemble Methods"],
     category: "ML/AI"
+  },
+  {
+    id: "6",
+    title: "Statistical Analysis of Startup Success Factors",
+    description: "Analyzed 923 tech startups using Multiple Linear Regression and ANOVA to identify success predictors. Discovered that funding rounds and investor participation outweigh total capital as success indicators, providing actionable insights for founders and investors. Conducted rigorous statistical analysis in R with significance testing, post-hoc comparisons, and comprehensive data visualization.",
+    tech: ["R Programming", "Multiple Linear Regression", "ANOVA", "ggplot2", "dplyr", "Statistical Analysis"],
+    category: "Data Science"
   }
 ];
 
@@ -129,7 +138,13 @@ export const CERTIFICATIONS: Certification[] = [
     name: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
     issuer: "Oracle",
     date: "Oct 2025 - Oct 2027"
+  },
+  {
+    name: "AI Agent Fundamentals",
+    issuer: "Databricks Academy",
+    date: "Dec 2025"
   }
+
 ];
 
 export const PUBLICATIONS: Publication[] = [
